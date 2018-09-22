@@ -8,49 +8,22 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/edi1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite seu Nome"
-        android:inputType=""
-        android:id="@+id/nomeEditText"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Digite seu Sobrenome"
-        android:inputType=""
-        android:id="@+id/sobrenomeEditText"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:hint="Digite seu Email"
-        android:id="@+id/emailEditText"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Digite sua Senha"
-        android:inputType="textPassword"
-        android:singleLine="false"
-        android:id="@+id/senhaEditText"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Digite sua senha novamente"
-        android:inputType="textPassword"
-        android:id="@+id/senha2EditText"
-
-        />
-
+        android:hint="Digite"
+        android:inputType="" />
+    
     <Button
         android:id="@+id/botao1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#09d7f7"
-        android:text="Cadastrar" />
+        android:text="Adicionar" />
 
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
